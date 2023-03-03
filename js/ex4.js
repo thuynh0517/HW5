@@ -60,3 +60,5 @@ upd_obj = studentList.findIndex((obj => obj.scores == [88, 99, 90]))
 studentList[upd_obj].firstName = [88, 99, 90]
 console.log('Full name (last, first): ', lastName, firstName)
 console.log('Updated scores are: ', scores)
+
+upd_obj
